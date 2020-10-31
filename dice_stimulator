@@ -1,0 +1,22 @@
+import random
+def dice_stimulator():
+    
+    Playing=True
+    while Playing:
+        user_input=input("press enter to roll or 'x' to stop")
+        print()
+    
+        if user_input=='x':
+            run=False
+        else:
+            roll=random.randint(1,6)
+            print(f"you rolled {roll}")
+        
+        
+        
+    
+    print()
+    print("thanks for playing")
+
+    
+    
